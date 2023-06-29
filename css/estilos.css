@@ -1,0 +1,54 @@
+*{
+ margin: 0;
+ border: 0;  
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.navegacion{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.ejercicios{
+    display: flex;
+    justify-content: space-around;
+}
+#llamar{
+    
+    padding:10px;
+}
+#llamar:hover{
+background-color: rgb(42, 40, 40);
+}
+
+body{
+    background-image: url(/img/wallpaperbetter.com_1280x800.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.encabezado{
+    padding:50px;
+    text-align: center;
+    background-color: rgb(255, 221, 0);
+   
+}
+.encabezado:hover{
+    background-color: rgb(255, 191, 0);
+}
+
+.espacio{
+    padding:20%;
+}
+#nombre{
+    padding:50px;
+    text-align: center;
+    background-color: rgb(134, 132, 132);
+}
+#nombre:hover{
+    background-color: rgb(117, 117, 117);
+}
+#ficha{
+    padding:50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
